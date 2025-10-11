@@ -8,11 +8,11 @@
   "license": "MIT",
   "name": "open-fonts",
   "repository": "git@tangled.sh:diegoenriquezserrano.dev/open-fonts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "dev": "vite dev --port 3150 --host",
     "format": "prettier --write .",
     "minify": "css-minify -d css -o min",
-    "build": "sass scss:css && yarn format && yarn minify && ./compress.sh"
+    "build": "yarn format && sass scss:css && yarn minify && ./compress.sh"
   }
 }
