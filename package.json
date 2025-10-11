@@ -1,0 +1,18 @@
+{
+  "author": "Diego Enriquez-Serrano <diego@diegoenriquezserrano.dev>",
+  "devDependencies": {
+    "css-minify": "^2.1.0",
+    "prettier": "^3.6.2",
+    "vite": "^7.1.9"
+  },
+  "license": "MIT",
+  "name": "open-fonts",
+  "repository": "git@tangled.sh:diegoenriquezserrano.dev/open-fonts",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite dev --port 3150 --host",
+    "format": "prettier --write .",
+    "minify": "css-minify -d css -o min",
+    "build": "sass scss:css && yarn format && yarn minify && ./compress.sh"
+  }
+}
