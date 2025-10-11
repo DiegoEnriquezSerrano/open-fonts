@@ -1,0 +1,23 @@
+@use "abstracts/font";
+
+@font-face {
+  font-display: swap;
+  font-family: "Liberation Mono";
+  font-style: normal;
+  src: url("#{font.$base-url}/liberation-mono.woff") format("woff");
+}
+
+.font-liberation-mono {
+  font-family: "Liberation Mono";
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Liberation Mono Bold";
+  font-style: normal;
+  src: url("#{font.$base-url}/liberation-mono-bold.woff") format("woff");
+}
+
+.font-liberation-mono-bold {
+  font-family: "Liberation Mono Bold";
+}

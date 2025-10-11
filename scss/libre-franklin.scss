@@ -1,0 +1,45 @@
+@use "abstracts/font";
+
+@font-face {
+  font-display: swap;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  src: url("#{font.$base-url}/libre-franklin.woff2") format("woff2");
+}
+
+.font-libre-franklin {
+  font-family: "Libre Franklin";
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Libre Franklin Bold";
+  font-style: normal;
+  src: url("#{font.$base-url}/libre-franklin-bold.woff2") format("woff2");
+}
+
+.font-libre-franklin-bold {
+  font-family: "Libre Franklin Bold";
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Libre Franklin Italic";
+  font-style: italic;
+  src: url("#{font.$base-url}/libre-franklin-italic.woff2") format("woff2");
+}
+
+.font-libre-franklin-italic {
+  font-family: "Libre Franklin Italic";
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Libre Franklin Bold Italic";
+  font-style: italic;
+  src: url("#{font.$base-url}/libre-franklin-bold-italic.woff2") format("woff2");
+}
+
+.font-libre-franklin-bold-italic {
+  font-family: "Libre Franklin Bold Italic";
+}

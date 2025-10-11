@@ -1,0 +1,45 @@
+@use "abstracts/font";
+
+@font-face {
+  font-display: swap;
+  font-family: "Open Sans";
+  font-style: normal;
+  src: url("#{font.$base-url}/open-sans.woff2") format("woff2");
+}
+
+.font-open-sans {
+  font-family: "Open Sans";
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Open Sans Bold";
+  font-style: normal;
+  src: url("#{font.$base-url}/open-sans-bold.woff2") format("woff2");
+}
+
+.font-open-sans-bold {
+  font-family: "Open Sans Bold";
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Open Sans Italic";
+  font-style: italic;
+  src: url("#{font.$base-url}/open-sans-italic.woff2") format("woff2");
+}
+
+.font-open-sans-italic {
+  font-family: "Open Sans Italic";
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Open Sans Bold Italic";
+  font-style: italic;
+  src: url("#{font.$base-url}/open-sans-bold-italic.woff2") format("woff2");
+}
+
+.font-open-sans-bold-italic {
+  font-family: "Open Sans Bold Italic";
+}

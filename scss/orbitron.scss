@@ -1,0 +1,45 @@
+@use "abstracts/font";
+
+@font-face {
+  font-display: swap;
+  font-family: "Orbitron";
+  font-style: normal;
+  src: url("#{font.$base-url}/orbitron.woff2") format("woff2");
+}
+
+.font-orbitron {
+  font-family: "Orbitron";
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Orbitron Bold";
+  font-style: normal;
+  src: url("#{font.$base-url}/orbitron-bold.woff2") format("woff2");
+}
+
+.font-orbitron-bold {
+  font-family: "Orbitron Bold";
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Orbitron Light";
+  font-style: normal;
+  src: url("#{font.$base-url}/orbitron-light.woff2") format("woff2");
+}
+
+.font-orbitron-light {
+  font-family: "Orbitron Light";
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Orbitron Black";
+  font-style: normal;
+  src: url("#{font.$base-url}/orbitron-black.woff2") format("woff2");
+}
+
+.font-orbitron-black {
+  font-family: "Orbitron Black";
+}

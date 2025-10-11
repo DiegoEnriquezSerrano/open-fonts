@@ -1,0 +1,23 @@
+@use "abstracts/font";
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  src: url("#{font.$base-url}/roboto-mono.woff2") format("woff2");
+}
+
+.font-roboto-mono {
+  font-family: "Roboto Mono";
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto Mono Bold";
+  font-style: normal;
+  src: url("#{font.$base-url}/roboto-mono-bold.woff2") format("woff2");
+}
+
+.font-roboto-mono-bold {
+  font-family: "Roboto Mono Bold";
+}
