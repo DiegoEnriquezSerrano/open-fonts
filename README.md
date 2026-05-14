@@ -1,3 +1,7 @@
+> [!WARNING]
+> This repository will become inactive as of May 14, 2026.
+> Future project maintenance will be tracked [here](https://codeberg.org/diegoenriquezserrano/open-fonts)
+
 # open-fonts
 
 A collection of open source fonts. Served from a multi-region CDN and available for direct use. Served from https://fonts.diegoenriquezserrano.dev
